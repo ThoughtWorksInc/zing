@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		89F3F1C82C85459900489239 /* ZingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1C72C85459900489239 /* ZingApp.swift */; };
 		89F3F1CA2C85459900489239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1C92C85459900489239 /* ContentView.swift */; };
-		89F3F1CC2C85459900489239 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1CB2C85459900489239 /* Item.swift */; };
 		89F3F1CE2C85459B00489239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F3F1CD2C85459B00489239 /* Assets.xcassets */; };
 		89F3F1D12C85459B00489239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F3F1D02C85459B00489239 /* Preview Assets.xcassets */; };
-		89F3F1DC2C85459B00489239 /* ZingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1DB2C85459B00489239 /* ZingTests.swift */; };
+		89F3F1DC2C85459B00489239 /* ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1DB2C85459B00489239 /* ScorerTests.swift */; };
 		89F3F1E62C85459B00489239 /* ZingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1E52C85459B00489239 /* ZingUITests.swift */; };
 		89F3F1E82C85459B00489239 /* ZingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1E72C85459B00489239 /* ZingUITestsLaunchTests.swift */; };
+		89F3F1F52C854D1B00489239 /* AppSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1F42C854D1B00489239 /* AppSetup.swift */; };
+		89F3F1F72C854F4900489239 /* Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1F62C854F4900489239 /* Recognizer.swift */; };
+		89F3F1F92C854FEF00489239 /* CGSKeyboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1F82C854FEF00489239 /* CGSKeyboardShortcut.swift */; };
+		89F3F1FB2C8571C800489239 /* AppActivationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1FA2C8571C800489239 /* AppActivationAction.swift */; };
+		89F3F1FF2C86CD5A00489239 /* ZingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F1FE2C86CD5A00489239 /* ZingModel.swift */; };
+		89F3F2012C86D0D100489239 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F2002C86D0D100489239 /* ContentViewViewModel.swift */; };
+		89F3F22B2C8E6B0C00489239 /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F22A2C8E6B0C00489239 /* Scorer.swift */; };
+		89F3F22E2C8E7B6E00489239 /* CheckEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F22D2C8E7B6E00489239 /* CheckEnvironment.swift */; };
+		89F3F2302C8E823C00489239 /* AppLister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F22F2C8E823C00489239 /* AppLister.swift */; };
+		89F3F2322C8E907200489239 /* EditDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F2312C8E907200489239 /* EditDistanceTests.swift */; };
+		89F3F23A2C8FCB7B00489239 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3F2392C8FCB7B00489239 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +48,26 @@
 		89F3F1C42C85459900489239 /* Zing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F3F1C72C85459900489239 /* ZingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingApp.swift; sourceTree = "<group>"; };
 		89F3F1C92C85459900489239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		89F3F1CB2C85459900489239 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		89F3F1CD2C85459B00489239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F3F1D02C85459B00489239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89F3F1D22C85459B00489239 /* Zing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zing.entitlements; sourceTree = "<group>"; };
 		89F3F1D72C85459B00489239 /* ZingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		89F3F1DB2C85459B00489239 /* ZingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingTests.swift; sourceTree = "<group>"; };
+		89F3F1DB2C85459B00489239 /* ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorerTests.swift; sourceTree = "<group>"; };
 		89F3F1E12C85459B00489239 /* ZingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F3F1E52C85459B00489239 /* ZingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingUITests.swift; sourceTree = "<group>"; };
 		89F3F1E72C85459B00489239 /* ZingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89F3F1F42C854D1B00489239 /* AppSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetup.swift; sourceTree = "<group>"; };
+		89F3F1F62C854F4900489239 /* Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizer.swift; sourceTree = "<group>"; };
+		89F3F1F82C854FEF00489239 /* CGSKeyboardShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSKeyboardShortcut.swift; sourceTree = "<group>"; };
+		89F3F1FA2C8571C800489239 /* AppActivationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActivationAction.swift; sourceTree = "<group>"; };
+		89F3F1FE2C86CD5A00489239 /* ZingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingModel.swift; sourceTree = "<group>"; };
+		89F3F2002C86D0D100489239 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		89F3F22A2C8E6B0C00489239 /* Scorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
+		89F3F22D2C8E7B6E00489239 /* CheckEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEnvironment.swift; sourceTree = "<group>"; };
+		89F3F22F2C8E823C00489239 /* AppLister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLister.swift; sourceTree = "<group>"; };
+		89F3F2312C8E907200489239 /* EditDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDistanceTests.swift; sourceTree = "<group>"; };
+		89F3F2332C8E920100489239 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		89F3F2392C8FCB7B00489239 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +118,12 @@
 		89F3F1C62C85459900489239 /* Zing */ = {
 			isa = PBXGroup;
 			children = (
-				89F3F1C72C85459900489239 /* ZingApp.swift */,
-				89F3F1C92C85459900489239 /* ContentView.swift */,
-				89F3F1CB2C85459900489239 /* Item.swift */,
+				89F3F1FD2C86C7DB00489239 /* Zing */,
+				89F3F1FC2C86C7B400489239 /* 3rdparty */,
 				89F3F1CD2C85459B00489239 /* Assets.xcassets */,
 				89F3F1D22C85459B00489239 /* Zing.entitlements */,
 				89F3F1CF2C85459B00489239 /* Preview Content */,
+				89F3F2332C8E920100489239 /* LICENSE.md */,
 			);
 			path = Zing;
 			sourceTree = "<group>";
@@ -118,7 +139,8 @@
 		89F3F1DA2C85459B00489239 /* ZingTests */ = {
 			isa = PBXGroup;
 			children = (
-				89F3F1DB2C85459B00489239 /* ZingTests.swift */,
+				89F3F1DB2C85459B00489239 /* ScorerTests.swift */,
+				89F3F2312C8E907200489239 /* EditDistanceTests.swift */,
 			);
 			path = ZingTests;
 			sourceTree = "<group>";
@@ -130,6 +152,56 @@
 				89F3F1E72C85459B00489239 /* ZingUITestsLaunchTests.swift */,
 			);
 			path = ZingUITests;
+			sourceTree = "<group>";
+		};
+		89F3F1FC2C86C7B400489239 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				89F3F1F82C854FEF00489239 /* CGSKeyboardShortcut.swift */,
+			);
+			path = 3rdparty;
+			sourceTree = "<group>";
+		};
+		89F3F1FD2C86C7DB00489239 /* Zing */ = {
+			isa = PBXGroup;
+			children = (
+				89F3F2382C8FCB6C00489239 /* DataSources */,
+				89F3F1FA2C8571C800489239 /* AppActivationAction.swift */,
+				89F3F1F42C854D1B00489239 /* AppSetup.swift */,
+				89F3F1C92C85459900489239 /* ContentView.swift */,
+				89F3F2002C86D0D100489239 /* ContentViewViewModel.swift */,
+				89F3F22C2C8E7B5F00489239 /* Environment */,
+				89F3F1F62C854F4900489239 /* Recognizer.swift */,
+				89F3F2292C8E6AEE00489239 /* TextMatching */,
+				89F3F1C72C85459900489239 /* ZingApp.swift */,
+				89F3F1FE2C86CD5A00489239 /* ZingModel.swift */,
+			);
+			path = Zing;
+			sourceTree = "<group>";
+		};
+		89F3F2292C8E6AEE00489239 /* TextMatching */ = {
+			isa = PBXGroup;
+			children = (
+				89F3F22A2C8E6B0C00489239 /* Scorer.swift */,
+			);
+			path = TextMatching;
+			sourceTree = "<group>";
+		};
+		89F3F22C2C8E7B5F00489239 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				89F3F22D2C8E7B6E00489239 /* CheckEnvironment.swift */,
+				89F3F22F2C8E823C00489239 /* AppLister.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		89F3F2382C8FCB6C00489239 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				89F3F2392C8FCB7B00489239 /* DataSource.swift */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +272,7 @@
 				TargetAttributes = {
 					89F3F1C32C85459900489239 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					89F3F1D62C85459B00489239 = {
 						CreatedOnToolsVersion = 15.4;
@@ -263,8 +336,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F3F1CA2C85459900489239 /* ContentView.swift in Sources */,
-				89F3F1CC2C85459900489239 /* Item.swift in Sources */,
+				89F3F22B2C8E6B0C00489239 /* Scorer.swift in Sources */,
+				89F3F1FF2C86CD5A00489239 /* ZingModel.swift in Sources */,
+				89F3F1F72C854F4900489239 /* Recognizer.swift in Sources */,
+				89F3F1FB2C8571C800489239 /* AppActivationAction.swift in Sources */,
+				89F3F1F92C854FEF00489239 /* CGSKeyboardShortcut.swift in Sources */,
+				89F3F23A2C8FCB7B00489239 /* DataSource.swift in Sources */,
+				89F3F22E2C8E7B6E00489239 /* CheckEnvironment.swift in Sources */,
 				89F3F1C82C85459900489239 /* ZingApp.swift in Sources */,
+				89F3F1F52C854D1B00489239 /* AppSetup.swift in Sources */,
+				89F3F2302C8E823C00489239 /* AppLister.swift in Sources */,
+				89F3F2012C86D0D100489239 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +354,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F3F1DC2C85459B00489239 /* ZingTests.swift in Sources */,
+				89F3F2322C8E907200489239 /* EditDistanceTests.swift in Sources */,
+				89F3F1DC2C85459B00489239 /* ScorerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +507,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Zing/Zing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Zing/Preview Content\"";
+				DEVELOPMENT_TEAM = GAZKDGD589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.zing.Zing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -450,13 +538,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Zing/Zing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Zing/Preview Content\"";
+				DEVELOPMENT_TEAM = GAZKDGD589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
